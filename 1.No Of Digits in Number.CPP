@@ -1,21 +1,18 @@
-//No of Digits in   a number
+// No of Digits in   a number
 
-#include<iostream.h>
-#include<conio.h>
+#include <iostream>
 void main()
 {
-clrscr();
-int x=0,n;
-cout<<"Enter the number :";
-cin>>n;
-while(n>0)
-{
-n=n/10;
-x=x+1;
+   
+    int x = 0, n;
+    cout << "Enter the number :";
+    cin >> n;
+    while (n > 0)
+    {
+        n = n / 10;
+        x = x + 1;
+        n--; 
+    }
+    cout << "The no of digits are :" << x;
+    
 }
-cout<<"The no of digits are :"<<x;
-getch();
-}
-
-
-
